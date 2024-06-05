@@ -1,0 +1,227 @@
+<mjml>
+<mj-head>
+  <mj-style>
+      * {
+        box-sizing: border-box;
+
+      }
+      .body{
+        background-color: #ffffff;
+         max-width: 600px;
+        align: center;
+      }
+     
+    </mj-style>
+
+</mj-head>
+ <mj-body css-class="body">
+  <mj-section>
+   <mj-column>
+    <mj-image src="https://i.postimg.cc/VsHKtnSH/logo.png"
+              href="https://parkmobile.io/"
+              width="120px"
+              alt="logo"/>
+     <mj-image src="https://i.postimg.cc/FsdDVz3F/man-with-card.png"
+              href="https://parkmobile.io/"
+              width="160px"
+              alt="man with a card"/>
+   </mj-column>
+   </mj-section>
+   <mj-section padding="0">
+   <mj-column >
+    <mj-text color="#1fa846"
+             font-size= "20px"
+             font-weight= "bold"
+             >
+    You’re all set!
+    </mj-text>
+    <mj-text color="black"
+             font-weight="200px"
+             font-size="35px">
+Payment processed.
+    </mj-text>
+ <mj-text color="black"
+          font-size="15px"
+         >
+This confirmation indicates that your session has been started and paid for successfully. Please see below to review the complete details of your transaction.
+    </mj-text>
+   </mj-column>
+  </mj-section>
+<mj-wrapper background-color="#f3f3f3">
+  <mj-section>
+   <mj-column>
+    <mj-text color="#1fa846"
+             font-size= "20px"
+             font-weight= "bold">
+    Parking Session Details
+    </mj-text>
+   </mj-column>
+  </mj-section>
+
+<mj-section>
+      <mj-group>
+        <mj-column >
+          <mj-text font-weight="bold"
+                   font-size= "16px"
+                   >
+          Payment Date
+          </mj-text>
+          <mj-text font-weight="bold"
+                   font-size= "16px">
+          Auth ID
+          </mj-text>
+          <mj-text font-weight="bold"
+                   font-size= "16px">
+          Description
+          </mj-text>
+          <mj-text font-weight="bold"
+                   font-size= "16px" >
+          Payment Method
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text>
+           01/07/2024 10:25 AM Eastern Standard Time
+          </mj-text>
+          <mj-text>
+           9777777779
+          </mj-text>
+          <mj-text>
+          ParkingAction
+          </mj-text>
+          <mj-text>
+          VISA ending in 1111
+          </mj-text>
+        </mj-column>
+     </mj-group>
+ </mj-section>  
+ 
+ <mj-section>
+  <mj-column>
+  <!---Divider goes here-->
+   <mj-divider border-width="1px" border-color="#1fa846" />
+   <mj-text font-weight="bold"
+            font-size= "26px">
+    Amount Paid
+   </mj-text>
+   
+   <mj-text font-weight="bold"
+            font-size= "26px" >
+   $5.00
+   </mj-text>
+
+    <!---Divider goes here-->
+ <mj-divider border-width="1px"  border-color="#1fa846" />
+  </mj-column>
+ 
+</mj-section>
+
+<mj-section>
+      <mj-group>
+        <mj-column >
+          <mj-text>
+          Description 
+          </mj-text>
+          <mj-text>
+          </mj-text>
+          <mj-text>
+          Space Number
+          </mj-text>
+          <mj-text>
+          Parking Ref
+          </mj-text>
+          <mj-text>
+          End Time
+          </mj-text>
+          <mj-text>
+          Parking Fee
+          </mj-text>
+          <mj-text>
+          Non Parking
+          </mj-text>
+          <mj-text>
+          Fee
+          </mj-text>
+          <mj-text>
+          Discounts
+          </mj-text>
+          <mj-text>
+          Taxes
+          </mj-text>
+          <mj-text font-size="26px"
+                   font-weight="bold">
+          Total
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+           Parking QQVK58 in 31325 @ Hollywood, FL at 1/7/2024
+         </mj-text>
+          <mj-text>
+          NA
+          </mj-text>
+          <mj-text>
+          787155882
+          </mj-text>
+          <mj-text>
+          01/07/2024 11:25 AM
+          </mj-text>
+          <mj-text>
+          $4.00
+          </mj-text>
+          <mj-text>
+          $0.00
+          </mj-text>
+          <mj-text>
+          </mj-text>
+          <mj-text>
+          $0.00
+          </mj-text>
+          <mj-text>
+          $0.00
+          </mj-text>
+          <mj-text>
+          </mj-text>
+          <mj-text font-size="26px"
+                   font-weight="bold">
+          $4.35
+          </mj-text>
+        </mj-column>
+     </mj-group>
+     
+ </mj-section>  
+ 
+ <mj-section>
+ <mj-column>
+ <mj-divider border-width="1px"  border-color="#1fa846"/>
+  <mj-text>
+   
+  For questions about your parking session, submit a support ticket to our Member Services Team <a href="https://support.parkmobile.io/hc/en-us/requests/new">here</a>, and include the transaction details listed above.
+  </mj-text>
+  </mj-column>
+ </mj-section>
+</mj-wrapper>
+
+<mj-section>
+<mj-column  background-color="#1fa846">
+ <mj-image src="https://i.postimg.cc/VsHKtnSH/logo.png"
+              href="https://parkmobile.io/"
+              width="120px"
+              alt="park mobile logo"/>
+ <mj-text align="center"
+          color="white" >
+ © 2024 ParkMobile, LLC All Rights Reserved
+ </mj-text>
+ <mj-text align="center"
+          color="white">
+ 1100 Spring St. NW, Suite 200, Atlanta, GA 30309
+ </mj-text>
+ <mj-text align="center"
+          color="white">
+   <a href="https://parkmobile.io/terms-of-use/" >Term of use</a> | <a href="https://parkmobile.io/contact-page/">Contact Us</a>
+ </mj-text>
+</mj-column>
+</mj-section>
+ </mj-body>
+</mjml>
