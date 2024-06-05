@@ -27,7 +27,7 @@
               alt="man with a card"/>
    </mj-column>
    </mj-section>
-   <mj-section padding="0">
+   <mj-section >
    <mj-column >
     <mj-text color="#1fa846"
              font-size= "20px"
@@ -43,7 +43,8 @@ Payment processed.
  <mj-text color="black"
           font-size="15px"
          >
-This confirmation indicates that your session has been started and paid for successfully. Please see below to review the complete details of your transaction.
+This confirmation indicates that your session has been started and paid for successfully.<br>
+ Please see below to review the complete details of your transaction.
     </mj-text>
    </mj-column>
   </mj-section>
